@@ -1,7 +1,6 @@
 import classes from './Numbers.module.css'
 
 export default function Numbers(props) {
-    console.log('Numbers: ', props.currResult)
     let numbersArray = []
     for (let i = 0; i < 10; i++) {
         numbersArray.push(
