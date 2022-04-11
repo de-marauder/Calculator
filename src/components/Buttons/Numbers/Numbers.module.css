@@ -1,0 +1,14 @@
+.Numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-column-start: end;
+    width: 60%;
+    direction: rtl
+}
+
+.NumButtons {
+    background-color: blanchedalmond;
+}
+.NumButtons:hover {
+    background-color: rgb(219, 202, 177);
+}

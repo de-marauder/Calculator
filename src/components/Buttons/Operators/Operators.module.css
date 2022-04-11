@@ -1,0 +1,16 @@
+.Operators {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 40%;
+}
+
+.OpButton {
+    background-color: darkorange;
+}
+.OpButton:hover {
+    background-color: rgb(196, 110, 4);
+}
+
+.Row2 {
+    grid-row: 2 / 4;
+}
