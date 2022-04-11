@@ -9,7 +9,7 @@ function App() {
   console.log('App: ', result)
 
   const equals = (result) => {
-    setResult(Function(result))
+    setResult(Function("return " + result)())
   }
   const clear = (result) => {
     setResult('')
